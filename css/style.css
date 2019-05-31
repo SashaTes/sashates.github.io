@@ -1,0 +1,141 @@
+
+*{
+ font-family: Ariel,sans-serif;
+ font-size: 16px;
+}
+
+
+/* General */
+body{
+	width: 1280px;
+	margin: 0 auto;
+}
+
+
+
+/* Header */
+header{
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+header .brand{
+	float: left;
+	font-size: 30px;
+	color: blue;
+	padding: 10px;
+}
+header nav;{
+	float: right;
+}
+.menu li{
+	float: left;
+	list-style: none;
+	margin-right: 10px;;
+}
+.menu li a{
+	text-decoration: none;
+	color: grey;
+}
+.clearfix::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.imgboss{
+	background-image: url(../img/imgboss.jpg);
+	background-size: cover;
+	min-height: 280px;
+	background-position: top center;
+	text-align: center;
+	padding-top: 155px;
+}
+.imgboss .container{
+  width: 40%;
+  margin: 0 auto;
+}
+h1{
+	color: white;
+	padding-bottom: 50px;
+}
+.button{
+	background-color: blue;
+	padding: 20px 30px;
+	border-radius: 30px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+
+
+
+/* Services */
+.services{
+	width: 80%;
+	margin: 0 auto;
+}
+h2,h3{
+	font-size: 24px;
+	text-align: center;
+}
+.service{
+	width: 33%;
+	float: left;
+	padding: 0 15px;
+	box-sizing: border-box;
+	margin-top: 30px;
+	color: grey;
+	text-align: center;
+}
+
+
+
+/* Article */
+.article{
+	width: 80%;
+	margin: 0 auto;
+}
+img{
+	float: left;
+	margin-right: 30px;
+}
+h3{
+	text-align: left;
+	margin-top: 30px;
+}
+.post p{
+	color: grey;
+}
+
+/* Footer */
+footer{
+	background-color: #333;
+	height: 250px;
+	padding-top: 50px;
+	text-decoration: none;
+	font-weight: bold;
+	margin-top: 20px;
+	border-radius: 15px;
+}
+footer .container{
+	width: 40%
+	margin: 0 auto;
+}
+footer .brand{
+	font-size: 30px;
+	color: white;
+	text-align: center
+}
+.copyright{
+	margin-left: 50px;
+	font-size: 13px;
+}
+footer nav{
+	margin-left: 50px;
+}
+.menu2{
+ text-align: center;
+ color: #333;
+}
